@@ -1,20 +1,14 @@
-# Localytics Data Visualization Challenge
+# Data Cleaning and Visualization Challenge for Synapse
 
-Have you been itching to try that new data visualization library you saw on Hacker News? Do you enjoy data science or frontend development? Looking for a weekend project to hone your skills? Localytics is hosting a challenge with prizes to help bolster the data visualization community.
-
-Given some analytics data, you'll create a visualization for BootLoader, a fictional crowdfunding mobile app, to help determine what segment of users would be interested in a new bicycle project. Read on for more details, and don't forget to checkout out our promotion site at http://data-viz-challenge.localytics.com
+You have beend given some data in the _data.json_ file, clean the data if necessary and create a visualization to help determine what segment of users would be interested in a new bicycle project.
 
 ## Your task
 
-BootLoader is a mobile app that helps people crowdfund their creative projects. Anyone with an idea, dream, and 2-minute video can post their project on BootLoader. Others then donate money to the project to help bring it to fruition.
+A user has a new concept for a 3-speed bicycle made from recycled parts with a $20 price point. He wants to send a push notification to other interested people on the internet, prompting them to fund the project. However, he doesn't want to send a message to everyone, only those who they think would be interested.
 
-Dennis Ridesalot, a BootLoader user, has a new concept for a 3-speed bicycle made from recycled parts with a $20 price point. The BootLoader team wants to send a push notification to their users, prompting them to fund the project. However, they don't want to send a message to all of their users--only those who they think would be interested.
+That's where you come in. You're a resident data expert. You'd like to create a visualization that helps answer: what kinds of users would be interested in the bicycle project?
 
-That's where you come in. You're the resident data expert at BootLoader. You'd like to create a visualization that helps answer: what kinds of users would be interested in the bicycle project?
-
-Luckily, you've been collecting analytics data on how your users fund projects. You also have software that can send push notification to segments of users, based on attributes like location, age range, gender, and mobile device.
-
-For example, you can send a push notification to all iOS users in Chicago, IL that says "Deep dish lovers unite! Help fund the largest pizza in the world on BootLoader."
+Luckily, you've been collecting analytics data on who would be interested to fund projects based on attributes like location, age range, gender, and mobile device.
 
 ## The Data
 
@@ -40,7 +34,7 @@ Additionally, you know some information about each user on your site, that they 
 
 From past experiments, you know that each user generally likes projects from the same category. For example, User A almost always views and funds projects from the "Technology" category. The bicycle project belongs to two categories: "Sports" and "Environment."
 
-You have a sampled time series of 50,000 events from one month this year in a JSON blob. User data is added into every event. Note that BootLoader has more users than are represented by this sample.
+You have a sampled time series of 50,000 events from one month this year in a JSON blob. User data is added into every event.
 
 Here's an example of two events by the same user:
 
@@ -83,11 +77,6 @@ Here's an example of two events by the same user:
 
 ## Your submission
 
-Once again, you want to create a visualization that answers: what segments of users would be interested in the bicycle project? Based on your visualization, BootLoader would send a push notification to those segments that advertises the bicycle project.
+Once again, you want to create a visualization after cleaning the data, that answers: what segments of users would be interested in the bicycle project? Based on your visualization.
 
-You can create any kind of visualization that you think best answers the question. e.g. static or interactive, using HTML5 or python. Feel free to use any tools you're familiar with, or try out that new data viz library you heard so much about.
-
-To submit your visualization, star and fork the data viz challenge repo on Github here https://github.com/localytics/data-viz-challenge. This github repository also contains the JSON data. Submit a pull request when your submission is ready with some instructions on how to run your code or a link to a hosted version. Submit an issue on Github with any questions you have, or email dthompson@localytics.com.
-
-While our prize pool challenge ended December 1st, 2014, feel free to continue submissions, as Localytics is always looking for new talents and ideas in the field of data viz. If you'd like to see our winner, feel free to take a look here at http://domajno.github.io/data-viz-challenge/
-
+You can create any kind of visualization that you think best answers the question. e.g. static or interactive, using python. Feel free to use any tools you're familiar with, or try out that new data viz library you heard about.
